@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- CTRL SHIFT F for formatting-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Divinity:Original Sin II Spell Tier List
+    </title>
+    <link rel="stylesheet" href="/index.css">
+    
+</head>
+
+<body>
+    <h1>Divinity:Original Sin II Spell Tier List</h1>
+    <table class="spell_table">
+        <tr>
+            <th>S+</th>
+            <th>S</th>
+            <th>A</th>
+            <th>B</th>
+            <th>C</th>
+            <th>D</th>
+            <th>E</th>
+            <th>F</th>
+            <th>G</th>
+        </tr>
+        <tr>
+            <td>
+                <ul style="list-style-type:none;">
+                    <li><button type="button" class="scoundrel" id=adrenalineButton onclick="setModalHandler(document.getElementById('adrenalineButton'), document.getElementById('adrenalineImg'))">Adrenaline</button></li>
+                </ul>
+
+            </td>
+            <td>
+                <ul style="list-style-type:none;">
+                    <li><button type="button" class="aerotheurge" id=teleportationButton onclick="setModalHandler(document.getElementById('teleportationButton'), document.getElementById('teleportationImg'))">Teleportation</button></li>
+                    <li><button type="button" class="huntsman">Tactical Retreat</button></li>
+                    <li><button type="button" class="hydrosophist">Rain</button></li>
+                    <li><button type="button" class="polymorph">Skin Graft</button></li>
+                    <li><button type="button" class="polymorph">Chameleon Cloak</button></li>
+                    <li><button type="button" class="warfare">Battle Stomp</button></li>
+                </ul>
+            </td>
+            <td>
+                <ul style="list-style-type:none;">
+                    <li><button type="button" class="aerotheurge">Chain Lightning</button></li>
+                    <li><button type="button" class="aerotheurge">Pressure Spike</button></li>
+                    <li><button type="button" class="aerotheurge">Nether Swap</button></li>
+                    <li><button type="button" class="geomancer">Pyroclastic Eruption</button></li>
+                    <li><button type="button" class="geomancer">Acid Spores</button></li>
+                    <li><button type="button" class="huntsman">Ballistic Shot</button></li>
+                    <li><button type="button" class="hydrosophist">Winter Blast</button></li>
+                    <li><button type="button" class="hydrosophist">Armor of Frost</button></li>
+                    <li><button type="button" class="necromancer">Grasp of the Starved</button></li>
+                    <li><button type="button" class="polymorph">Spider Legs</button></li>
+                    <li><button type="button" class="pyrokinetic">Master of Sparks</button></li>
+                    <li><button type="button" class="pyrokinetic">Corpse Explosion</button></li>
+                    <li><button type="button" class="pyrokinetic">Mass Corpse Explosion</button></li>
+                    <li><button type="button" class="scoundrel">Cloak and Dagger</button></li>
+                    <li><button type="button" class="scoundrel">Backlash</button></li>
+                    <li><button type="button" class="summoning">Conjure Incarnate</button></li>
+                    <li><button type="button" class="summoning">Power Infusion</button></li>
+                    <li><button type="button" class="summoning">Farsight Infusion</button></li>
+                    <li><button type="button" class="summoning">Soul Mate</button></li>
+                    <li><button type="button" class="warfare">Battering Ram</button></li>
+                    <li><button type="button" class="warfare">Bounding Shield</button></li>
+                    <li><button type="button" class="warfare">Phoenix Dive</button></li>
+                    <li><button type="button" class="warfare">Thick of Flight</button></li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+
+        </tr>
+    </table>
+
+
+
+
+    <!-- Trigger the Modal -->
+<img id="adrenalineImg" src="Images/adrenaline.png"  style="width:80%;max-width:300px">
+<img id="teleportationImg" src="Images/teleportation.png"  style="width:80%;max-width:300px">
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- The Close Button -->
+  <span class="close">&times;</span>
+
+  <!-- Modal Content (The Image) -->
+  <img class="modal-content" id="img01">
+
+  <!-- Modal Caption (Image Text) -->
+  <div id="caption"></div>
+</div>
+
+</body>
+<script src="/main.js"></script>
+</html>
