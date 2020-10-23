@@ -1,47 +1,107 @@
-.spell_table{
-   
-    text-align:center;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+@import url('https://fonts.googleapis.com/css?family=Lora');
+@import url('https://fonts.googleapis.com/css?family=MedievalSharp');
 
+
+
+h1 {
+ text-align:center;
+ color:white;
+ font-family: Lora, serif;
+ padding-bottom: 100px;
+ font-size:50px;
+}
+
+body{
+
+  background-image : url("/Images/background_image.jpg"); 
+  background-repeat: round;
+  
+}
+
+.spell{
+  height:200px;
+}
+
+/*Tier Heading*/
+th {
+  position:-webkit-sticky;
+  position:sticky;
+  top: 0;
+  text-align:center;
+  font-size:45px;
+  font-family: MedievalSharp, serif;
+  z-index:1;
+}
+
+
+button {
+
+  font-family: Lora, serif;
+  margin: auto;
+  padding: 1rem;
+  text-transform: uppercase;
+  color: #fafafa;
+  background-color: #00d166;
+  border: none;
+  border-radius: 4px;
+  -webkit-box-shadow: 1px 1px 10px rgba(50, 50, 50, 0.4);
+          box-shadow: 1px 1px 10px rgba(50, 50, 50, 0.4);
+  -webkit-transition: .3s all ease;
+  transition: .3s all ease;
+  letter-spacing: .1rem;
+  font-size: .95rem;
+  position: relative;
+  top: 0;
+  right: 0;
+  
+  
  
 }
 
-button{
-    border-radius:3px;
-    width:150px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight:bold;
+
+
+
+button:hover {
+  -webkit-box-shadow: 1px 1px 20px rgba(150, 150, 150, 0.2);
+          box-shadow: 1px 1px 20px rgba(150, 150, 150, 0.2);
+  top: -.1rem;
+  right: -.1rem;
+  cursor: pointer;
+  opacity: .85;
 }
 
+
 button.aerotheurge{
-    background-color:rgba(248, 248, 248, 0.842);
+    background-color:#001f3f;
+    
 }
 button.geomancer{
-    background-color:rgba(167, 116, 7, 0.884);
+    background-color:rgba(70, 49, 2, 0.863);
 }
 button.huntsman{
-    background-color:rgba(67, 128, 6, 0.842);
+    background-color:#00d166;
 }
 button.hydrosophist{
     background-color:rgba(5, 140, 163, 0.829);
 }
 button.necromancer{
-    background-color:rgba(70, 7, 56, 0.781);
+    background-color:rgba(59, 6, 49, 0.664);
 }
 button.polymorph{
-    background-color:rgba(240, 236, 0, 0.918);
+    background-color:rgba(247, 248, 248, 0.842);
+    color:black;
 }
 button.pyrokinetic{
-    background-color:rgb(204, 102, 19);
+    background-color:#FF4136;
 }
 button.scoundrel{
-    background-color:rgba(66, 68, 64, 0.479);
+    background-color:rgba(42, 43, 41, 0.637);
 }
 button.summoning{
-    background-color:rgb(179, 32, 184);
+    background-color:rgba(179, 32, 184, 0.658);
 }
 button.warfare{
-    background-color:rgb(219, 39, 7);
+    background-color:rgba(121, 6, 6, 0.836);
 }
 
 
@@ -77,8 +137,8 @@ button.warfare{
   .modal-content {
     margin: auto;
     display: block;
-    width: 100%;
-    max-width: 400px;
+    width: 200%;
+    max-width: 1400px;
   }
   
   /* Caption of Modal Image (Image Text) - Same Width as the Image */
@@ -104,7 +164,8 @@ button.warfare{
     to {transform:scale(1)}
   }
   
-  /* The Close Button */
+  /* The Close Button 
+
   .close {
     position: absolute;
     top: 15px;
@@ -114,12 +175,25 @@ button.warfare{
     font-weight: bold;
     transition: 0.3s;
   }
+  */
+
+  .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+    
+  }
   
   .close:hover,
   .close:focus {
     color: #bbb;
     text-decoration: none;
     cursor: pointer;
+    
   }
   
   /* 100% Image Width on Smaller Screens */
@@ -131,4 +205,3 @@ button.warfare{
   }
 
 
-  /* Testing */
