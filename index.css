@@ -2,8 +2,6 @@
 @import url('https://fonts.googleapis.com/css?family=MedievalSharp');
 
 
-
-
 h1 {
  text-align:center;
  color:Black;
@@ -13,66 +11,66 @@ h1 {
  text-decoration: underline;
 }
 
-div .classRow{
-  width:100%;
+.classRow{
+  width:60%;
+  margin:auto;
+  text-align:center;
+  
+}
+
+.parentKey{
+  min-width:118px;
+  padding: 10px;
+  border-style:solid;
+  border-width:2px;
+  margin:0px 30px 30px 30px;
+  border-radius: 4px;
+  display:inline-block;
+  text-align:center;
+  font-family: Lora, serif;
+  font-size:12px;
+  text-transform:uppercase;
   
 }
 
 
-
-#aeroKey{
-  display:inline-block;
+.aeroKey{
   background-color:#ddda0bc2;
-  margin-right:20px;
-  margin-left:50px;
 }
 
-#geoKey{
-  display:inline-block;
+.geoKey{
   background-color:rgba(51, 36, 2, 0.979);
 }
 
-#huntsmanKey{
-  display:inline-block;
+.huntsmanKey{
   background-color:#00d166;
 }
 
-#hydroKey{
-  display:inline-block;
+.hydroKey{
   background-color:rgba(5, 140, 163, 0.829);
 }
 
-#necroKey{
-  display:inline-block;
+.necroKey{
   background-color:rgba(59, 6, 49, 0.842);
 }
 
-#polyKey{
-  display:inline-block;
+.polyKey{
   background-color:rgba(247, 248, 248, 0.842);
 }
 
-#pyroKey{
-  display:inline-block;
+.pyroKey{
   background-color:#FF4136;
 }
 
-#scoundrelKey{
+.scoundrelKey{
   background-color:rgba(42, 43, 41, 0.637);
-  max-width:80px;
-  padding: 10px;
-  margin:50px;
-  border-radius: 4px;
-  display:inline-block;
 }
 
-#summonKey{
-  display:inline-block;
+.summonKey{
   background-color:rgba(179, 32, 184, 0.658);
 }
 
-#warfareKey{
-  display:inline-block;
+.warfareKey{
   background-color:rgba(121, 6, 6, 0.836);
 }
 
@@ -85,7 +83,6 @@ li {
 
 td{
   vertical-align:top;
-  
 }
 
 
@@ -95,28 +92,11 @@ ul{
   position:relative;
   vertical-align:top;
   top:0;
-  
-  
-  
-}
-
-.test1{
-  color:blue;
-}
-
-.test2{
-  color:green;
-}
-
-.topBut{
-  background-color:yellow;
 }
 
 
 
 body{
-
-
   /*background-image : url("/Images/background_image.jpg"); */
   background-repeat: round;
   background-size: 1920px;
@@ -148,7 +128,6 @@ button {
 
   font-family: Lora, serif;
   margin: .78px;
-  
   text-transform: uppercase;
   color: #fafafa;
   background-color: #00d166;
@@ -159,7 +138,6 @@ button {
   -webkit-transition: .3s all ease;
   transition: .3s all ease;
   letter-spacing: .1rem;
-  
   position: relative;
   top: 0;
   right: 0;
