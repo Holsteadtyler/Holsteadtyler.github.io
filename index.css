@@ -2,6 +2,137 @@
 @import url('https://fonts.googleapis.com/css?family=MedievalSharp');
 
 
+@media only screen and (max-width: 600px) {
+  
+
+/* Force table to not be like tables anymore */
+table, thead, tbody, th, td, tr { 
+  display: block; 
+}
+
+/* Hide table headers (but not display: none;, for accessibility) */
+thead tr { 
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+
+tr { border: 1px solid #ccc; }
+
+td { 
+  /* Behave  like a "row" */
+  border: none;
+  border-bottom: 1px solid #eee; 
+  position: relative;
+  padding-left: 50%; 
+}
+
+td:before { 
+  /* Now like a table header */
+  position: absolute;
+  /* Top/left values mimic padding */
+  top: 6px;
+  left: 6px;
+  width: 45%; 
+  padding-right: 10px; 
+  white-space: nowrap;
+  font-family: MedievalSharp, serif;
+  font-size: 30px;
+  
+}
+
+/*
+Label the data
+*/
+td:nth-of-type(1):before { 
+  content: "S+"; 
+  margin: 0px;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+
+  
+}
+
+td:nth-of-type(2):before { 
+  content: "S"; 
+  top:50%;
+  margin: 0px;
+  position: absolute;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%); 
+}
+
+td:nth-of-type(3):before { 
+  content: "A";
+  top:50%;
+  margin: 0px;
+  position: absolute;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+
+ }
+
+ td:nth-of-type(4):before { 
+  content: "B"; 
+  top:50%;
+  margin: 0px;
+  position: absolute;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+td:nth-of-type(5):before { 
+  content: "C"; 
+  top:50%;
+  margin: 0px;
+  position: absolute;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+td:nth-of-type(6):before { 
+  content: "D"; 
+  top:50%;
+  margin: 0px;
+  position: absolute;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+td:nth-of-type(7):before { 
+  content: "E";
+  top:50%;
+  margin: 0px;
+  position: absolute;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+ }
+
+ td:nth-of-type(8):before { 
+  content: "F";
+  top:50%;
+  margin: 0px;
+  position: absolute;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+ }
+
+ td:nth-of-type(9):before { 
+  content: "G"; 
+  top:50%;
+  margin: 0px;
+  position: absolute;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+
+
+}
+
+
 h1 {
  text-align:center;
  color:Black;
@@ -9,13 +140,15 @@ h1 {
  padding-bottom: 10px;
  font-size:50px;
  text-decoration: underline;
+ width:100%;
+ 
 }
 
 .classRow{
   width:60%;
   margin:auto;
   text-align:center;
-  
+
 }
 
 .parentKey{
@@ -83,17 +216,12 @@ h1 {
 li {
   margin:bottom;
   display:flex;
-  
-  
-
 }
 
 td{
   vertical-align:top;
   
- 
 }
-
 
 
 ul{
@@ -101,6 +229,7 @@ ul{
   position:relative;
   vertical-align:top;
   top:0;
+  
   
 }
 
@@ -277,6 +406,7 @@ button.warfare{
     transition: 0.3s;
   }
   
+  */
 
   .close {
     position: absolute;
@@ -286,16 +416,18 @@ button.warfare{
     font-size: 40px;
     font-weight: bold;
     transition: 0.3s;
+    display:none;
     
   }
 
-  */
+  
   
   .close:hover,
   .close:focus {
     color: #bbb;
     text-decoration: none;
     cursor: pointer;
+    
     
   }
   
