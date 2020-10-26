@@ -3,366 +3,579 @@
 
 <!-- CTRL SHIFT F for formatting-->
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Divinity:Original Sin II Spell Tier List</title>
-    <link rel="stylesheet" href="/index.css">
-    <link rel="icon" href="/Images/icon.jpg">
 
-    <link rel="stylesheet"
-          href="https://fonts.googleapis.com/css?family=Lora">
+
+<!--              holsteadtyler.github.io               -->
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Divinity:Original Sin II Spell Tier List</title>
+        <link rel="stylesheet" href="/index.css">
+        <link rel="icon" href="/Images/icon.jpg">
+
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora">
 </head>
 
 <body>
-    <h1>Divinity : Original Sin II Spell Tier List</h1>
+        <h1>Divinity : Original Sin II Spell Tier List</h1>
 
-    <table class="spell">
-        <tr class="tierHeader">
-                <th>S+</th>
-                <th>S</th>
-                <th>A</th>
-                <th>B</th>
-                <th>C</th>
-                <th>D</th>
-                <th>E</th>
-                <th>F</th>
-                <th>G</th>
-            </tr>
-        
-        <tr>
-            <td>
-                <ul style="list-style-type:none;">
-                    <li><button type="button" class="scoundrel" id="adrenaline_button">Adrenaline</button></li>
-                </ul>
+        <div class="classRow">
 
-            </td>
-            <td>
-                <ul style="list-style-type:none;">
-                    <li><button type="button" class="aerotheurge" id="teleportation_button">Teleportation</button></li>
-                    <li><button type="button" class="huntsman" id="tactical_retreat_button">Tactical Retreat</button>
-                    </li>
-                    <li><button type="button" class="hydrosophist" id="rain_button">Rain</button></li>
-                    <li><button type="button" class="polymorph" id="skin_graft_button">Skin Graft</button></li>
-                    <li><button type="button" class="polymorph" id="chameleon_cloak_button">Chameleon Cloak</button>
-                    </li>
-                    <li><button type="button" class="warfare" id="battle_stomp_button">Battle Stomp</button></li>
-                </ul>
-            </td>
-            <td>
-                <ul style="list-style-type:none;">
-                    <li><button type="button" class="aerotheurge" id="chain_lightning_button">Chain Lightning</button>
-                    </li>
-                    <li><button type="button" class="aerotheurge" id="pressure_spike_button">Pressure Spike</button>
-                    </li>
-                    <li><button type="button" class="aerotheurge" id="nether_swap_button">Nether Swap</button></li>
-                    <li><button type="button" class="geomancer" id="pyroclastic_eruption_button">Pyroclastic
-                            Eruption</button></li>
-                    <li><button type="button" class="geomancer" id="acid_spores_button">Acid Spores</button></li>
-                    <li><button type="button" class="huntsman" id="ballistic_shot_button">Ballistic Shot</button></li>
-                    <li><button type="button" class="hydrosophist" id="winter_blast_button">Winter Blast</button></li>
-                    <li><button type="button" class="hydrosophist" id="armour_of_frost_button">Armour of Frost</button>
-                    </li>
-                    <li><button type="button" class="necromancer" id="grasp_of_the_starved_button">Grasp of the
-                            Starved</button></li>
-                    <li><button type="button" class="polymorph" id="spider_legs_button">Spider Legs</button></li>
-                    <li><button type="button" class="pyrokinetic" id="master_of_sparks_button">Master of Sparks</button>
-                    </li>
-                    <li><button type="button" class="pyrokinetic" id="corpse_explosion_button">Corpse
-                            Explosion</button></li>
-                    <li><button type="button" class="pyrokinetic" id="mass_corpse_explosion_button">Mass Corpse
-                            Explosion</button></li>
-                    <li><button type="button" class="scoundrel" id="cloak_and_dagger_button">Cloak and Dagger</button>
-                    </li>
-                    <li><button type="button" class="scoundrel" id="backlash_button">Backlash</button></li>
-                    <li><button type="button" class="summoning" id="conjure_incarnate_button">Conjure Incarnate</button>
-                    </li>
-                    <li><button type="button" class="summoning" id="power_infusion_button">Power Infusion</button></li>
-                    <li><button type="button" class="summoning" id="farsight_infusion_button">Farsight Infusion</button>
-                    </li>
-                    <li><button type="button" class="summoning" id="soul_mate_button">Soul Mate</button></li>
-                    <li><button type="button" class="warfare" id="battering_ram_button">Battering Ram</button></li>
-                    <li><button type="button" class="warfare" id="bouncing_shield_button">Bouncing Shield</button></li>
-                    <li><button type="button" class="warfare" id="phoenix_dive_button">Phoenix Dive</button></li>
-                    <li><button type="button" class="warfare" id="thick_of_the_fight_button">Thick of Fight</button>
-                    </li>
-                </ul>
-            </td>
-            <td>
-                <ul style="list-style-type:none;">
-                    <li><button type="button" class="aerotheurge" id="closed_circuit_button">Closed Circuit</button>
-                    </li>
-                    <li><button type="button" class="aerotheurge" id="superconductor_button">Superconductor</button>
-                    </li>
-                    <li><button type="button" class="aerotheurge" id="vacuum_aura_button">Vacuum Aura</button></li>
-                    <li><button type="button" class="aerotheurge" id="uncanny_evasion_button">Uncanny Evasion</button>
-                    </li>
-                    <li><button type="button" class="geomancer" id="dust_blast_button">Dust Blast</button></li>
-                    <li><button type="button" class="geomancer" id="earthquake_button">Earthquake</button></li>
-                    <li><button type="button" class="geomancer" id="impalement_button">Impalement</button></li>
-                    <li><button type="button" class="huntsman" id="first_aid_button">First Aid</button></li>
-                    <li><button type="button" class="huntsman" id="elemental_arrowheads_button">Elemental
-                            Arrowheads</button></li>
-                    <li><button type="button" class="hydrosophist" id="global_cooling_button">Global Cooling</button>
-                    </li>
-                    <li><button type="button" class="necromancer" id="mosquito_swarm_button">Mosquito Swarm</button>
-                    </li>
-                    <li><button type="button" class="necromancer" id="raise_bloated_corpse_button">Raise Bloated
-                            Corpse</button></li>
-                    <li><button type="button" class="necromancer" id="raining_blood_button">Raining Blood</button></li>
-                    <li><button type="button" class="polymorph" id="medusa_head_button">Medusa Head</button></li>
-                    <li><button type="button" class="polymorph" id="bull_horns_button">Bull Horns</button></li>
-                    <li><button type="button" class="polymorph" id="tentacle_lash_button">Tentacle Lash</button></li>
-                    <li><button type="button" class="polymorph" id="apotheosis_button">Apotheosis</button></li>
-                    <li><button type="button" class="pyrokinetic" id="laser_ray_button">Laser Ray</button></li>
-                    <li><button type="button" class="pyrokinetic" id="fireball_button">Fireball</button></li>
-                    <li><button type="button" class="pyrokinetic" id="haste_button">Haste</button></li>
-                    <li><button type="button" class="pyrokinetic" id="throw_explosive_trap_button">Throw Explosive
-                            Trap</button></li>
-                    <li><button type="button" class="pyrokinetic" id="peace_of_mind_button">Peace of Mind</button></li>
-                    <li><button type="button" class="scoundrel" id="chloroform_button">Chloroform</button></li>
-                    <li><button type="button" class="scoundrel" id="mortal_blow_button">Mortal Blow</button></li>
-                    <li><button type="button" class="summoning" id="shadow_infusion_button">Shadow Infusion</button>
-                    </li>
-                    <li><button type="button" class="summoning" id="warp_infusion_button">Warp Infusion</button></li>
-                    <li><button type="button" class="summoning" id="dominate_mind_button">Dominate Mind</button></li>
-                    <li><button type="button" class="summoning" id="cursed_electric_infusion_button">Cursed Electric
-                            Infusion</button></li>
-                    <li><button type="button" class="summoning" id="acid_infusion_button">Acid Infusion</button></li>
-                    <li><button type="button" class="summoning" id="summon_inner_demon_button">Summon Inner
-                            Demon</button></li>
-                    <li><button type="button" class="warfare" id="challenge_button">Challenge</button></li>
-                    <li><button type="button" class="warfare" id="whirlwind_button">Whirlwind</button></li>
+                <div id="aeroKey">Aerotheurge</div>
+                <div id="geoKey">Geomancer</div>
+                <div id="huntsmanKey">Huntsman</div>
+                <div id="hydroKey">Hydrosophist</div>
+                <div id="necroKey">Necromancer</div>
+                <div id="polyKey">Polymorph</div>
+                <div id="pyroKey">Pyrokinetic</div>
+                <div id="scoundrelKey">Scoundrel</div>
+                <div id="summonKey">Summoning</div>
+                <div id="warfareKey">Warfare</div>
+                <div class="test1 topBut">Test</div>
+                <div class="test2 topBut">Test2</div>
 
-                </ul>
-            </td>
-            <td>
-                <ul style="list-style-type:none;">
-                    <li><button type="button" class="aerotheurge" id="smoke_cover_button">Smoke Cover</button></li>
-                    <li><button type="button" class="aerotheurge" id="dazing_bolt_button">Dazing Bolt</button></li>
-                    <li><button type="button" class="aerotheurge" id="vacuum_touch_button">Vacuum Touch</button></li>
-                    <li><button type="button" class="aerotheurge" id="evasive_aura_button">Evasive Aura</button></li>
-                    <li><button type="button" class="geomancer" id="worm_tremor_button">Worm Tremor</button></li>
-                    <li><button type="button" class="geomancer" id="throw_dust_button">Throw Dust</button></li>
-                    <li><button type="button" class="geomancer" id="poison_wave_button">Poison Wave</button></li>
-                    <li><button type="button" class="geomancer" id="venom_coating_buttong">Venom Coating</button></li>
-                    <li><button type="button" class="geomancer" id="fortify_button">Fortify</button></li>
-                    <li><button type="button" class="geomancer" id="living_wall_button">Living Wall</button></li>
-                    <li><button type="button" class="huntsman" id="pin_down_button">Pin Down</button></li>
-                    <li><button type="button" class="huntsman" id="barrage_buttong">Barrage</button></li>
-                    <li><button type="button" class="huntsman" id="ricochet_button">Ricochet</button></li>
-                    <li><button type="button" class="huntsman" id="sky_shot_button">Sky Shot</button></li>
-                    <li><button type="button" class="hydrosophist" id="hail_strike_button">Hail Strike</button></li>
-                    <li><button type="button" class="hydrosophist" id="ice_fan_button">Ice Fan</button></li>
-                    <li><button type="button" class="hydrosophist" id="restoration_button">Restoration</button></li>
-                    <li><button type="button" class="hydrosophist" id="ice_breaker_button">Ice Breaker</button></li>
-                    <li><button type="button" class="hydrosophist" id="cleanse_wounds_button">Cleanse Wounds</button>
-                    </li>
-                    <li><button type="button" class="hydrosophist" id="mass_cleanse_wounds_button">Mass Cleanse
-                            Wounds</button></li>
-                    <li><button type="button" class="necromancer" id="living_on_the_edge_button">Living on the
-                            Edge</button>
-                    </li>
-                    <li><button type="button" class="necromancer" id="decaying_touch_button">Decaying Touch</button>
-                    </li>
-                    <li><button type="button" class="necromancer" id="infect_button">Infect</button></li>
-                    <li><button type="button" class="necromancer" id="blood_storm_button">Blood Storm</button></li>
-                    <li><button type="button" class="necromancer" id="shackles_of_pain_button">Shackles of Pain</button>
-                    </li>
-                    <li><button type="button" class="polymorph" id="spread_your_wings_button">Spread Your Wings</button>
-                    </li>
-                    <li><button type="button" class="polymorph" id="forced_exchange_button">Forced Exchange</button>
-                    </li>
-                    <li><button type="button" class="polymorph" id="heart_of_steel_button">Heart of Steel</button></li>
-                    <li><button type="button" class="pyrokinetic" id="ignition_button">Ignition</button></li>
-                    <li><button type="button" class="pyrokinetic" id="flaming_crescendo_button">Flaming
-                            Crescendo</button></li>
-                    <li><button type="button" class="pyrokinetic" id="epidemic_of_fire_button">Epidemic of Fire</button>
-                    </li>
-                    <li><button type="button" class="pyrokinetic" id="supernova_button">Supernova</button></li>
-                    <li><button type="button" class="pyrokinetic" id="deploy_mass_traps_button">Deploy Mass
-                            Traps</button></li>
-                    <li><button type="button" class="scoundrel" id="sleeping_arms_button">Sleeping Arms</button></li>
-                    <li><button type="button" class="scoundrel" id="wind_up_toy_button">Wind-Up Toy</button></li>
-                    <li><button type="button" class="scoundrel" id="rupture_tendons_button">Rupture Tendons</button>
-                    </li>
-                    <li><button type="button" class="summoning" id="necrofire_infusion_button">Necrofire
-                            Infusion</button></li>
-                    <li><button type="button" class="warfare" id="overpower_button">Overpower</button></li>
-                    <li><button type="button" class="warfare" id="enrage_button">Enrage</button></li>
-                    <li><button type="button" class="warfare" id="blitz_attack_button">Blitz Attack</button></li>
-                </ul>
-            </td>
-            <td>
-                <ul style="list-style-type:none;">
-                    <li><button type="button" class="aerotheurge" id="electric_discharge_button">Electric
-                            Discharge</button></li>
-                    <li><button type="button" class="aerotheurge" id="blinding_radiance_button">Blinding
-                            Radiance</button></li>
-                    <li><button type="button" class="aerotheurge" id="shocking_touch_button">Shocking Touch</button>
-                    </li>
-                    <li><button type="button" class="geomancer" id="contamination_button">Contamination</button></li>
-                    <li><button type="button" class="geomancer" id="fossil_strike_button">Fossil Strike</button></li>
-                    <li><button type="button" class="geomancer" id="poison_dart_button">Poison Dart</button></li>
-                    <li><button type="button" class="geomancer" id="venomous_aura_button">Venomous Aura</button></li>
-                    <li><button type="button" class="geomancer" id="turn_to_oil_button">Turn to Oil</button></li>
-                    <li><button type="button" class="geomancer" id="mend_metal_button">Mend Metal</button></li>
-                    <li><button type="button" class="huntsman" id="marksmans_fang_button">Marksman's Fang</button></li>
-                    <li><button type="button" class="huntsman" id="arrow_storm_button">Arrow Storm</button></li>
-                    <li><button type="button" class="hydrosophist" id="deep_freeze_button">Deep Freeze</button></li>
-                    <li><button type="button" class="hydrosophist" id="soothing_cold_button">Soothing Cold</button></li>
-                    <li><button type="button" class="hydrosophist" id="vampiric_hunger_button">Vampiric Hunger</button>
-                    </li>
-                    <li><button type="button" class="hydrosophist" id="vampiric_hunger_aura_button">Vampiric Hunger
-                            Aura</button></li>
-                    <li><button type="button" class="necromancer" id="death_wish_button">Death Wish</button></li>
-                    <li><button type="button" class="necromancer" id="blood_sucker_button">Blood Sucker</button></li>
-                    <li><button type="button" class="necromancer" id="raise_bone_widow_button">Raise Bone Widow</button>
-                    </li>
-                    <li><button type="button" class="necromancer" id="bone_cage_button">Bone Cage</button></li>
-                    <li><button type="button" class="polymorph" id="terrain_transmutation_button">Terrain
-                            Transmutation</button></li>
-                    <li><button type="button" class="polymorph" id="jellyfish_skin_button">Jellyfish Skin</button></li>
-                    <li><button type="button" class="polymorph" id="chicken_claw_button">Chicken Claw</button></li>
-                    <li><button type="button" class="pyrokinetic" id="spontaneous_combustion_button">Spontaneos
-                            Combustion</button></li>
-                    <li><button type="button" class="pyrokinetic" id="bleed_fire_button">Bleed Fire</button></li>
-                    <li><button type="button" class="pyrokinetic" id="fire_whip_button">Fire Whip</button></li>
-                    <li><button type="button" class="pyrokinetic" id="sparking_swings_button">Sparking Swings</button>
-                    </li>
-                    <li><button type="button" class="scoundrel" id="terrifying_cruelty_button">Terrifying
-                            Cruelty</button></li>
-                    <li><button type="button" class="scoundrel" id="throwing_knife_button">Throwing Knife</button></li>
-                    <li><button type="button" class="scoundrel" id="fan_of_knives_button">Fan of Knives</button></li>
-                    <li><button type="button" class="summoning" id="elemental_totem_button">Elemental Totem</button>
-                    </li>
-                    <li><button type="button" class="warfare" id="deflective_barrier_button">Deflective Barrier</button>
-                    </li>
-                    <li><button type="button" class="warfare" id="crippling_blow_button">Crippling Blow</button></li>
-                </ul>
-            </td>
-            <td>
-                <ul style="list-style-type:none;">
-                    <li><button type="button" class="aerotheurge" id="blessed_smoke_cloud_button">Blessed Smoke
-                            Cloud</button>
-                    </li>
-                    <li><button type="button" class="aerotheurge" id="thunderstorm_button">Thunderstorm</button></li>
-                    <li><button type="button" class="geomancer" id="corrosive_touch_button">Corrosive Touch</button>
-                    </li>
-                    <li><button type="button" class="geomancer" id="corrosive_spray_button">Corrosive Spray</button>
-                    </li>
-                    <li><button type="button" class="huntsman" id="assassinate_button">Assassinate</button></li>
-                    <li><button type="button" class="huntsman" id="arrow_spray_button">Arrow Spray</button></li>
-                    <li><button type="button" class="hydrosophist" id="healing_ritual_button">Healing Ritual</button>
-                    </li>
-                    <li><button type="button" class="hydrosophist" id="arcane_stitch_button">Arcane Stitch</button></li>
-                    <li><button type="button" class="hydrosophist" id="cryotherapy_button">Cryotherapy</button></li>
-                    <li><button type="button" class="hydrosophist" id="mass_cryotherapy_button">Mass
-                            Cryotherapy</button></li>
-                    <li><button type="button" class="necromancer" id="last_rites_button">Last Rites</button></li>
-                    <li><button type="button" class="necromancer" id="black_shroud_button">Black Shroud</button></li>
-                    <li><button type="button" class="polymorph" id="flay_skin_button">Flay Skin</button></li>
-                    <li><button type="button" class="polymorph" id="flaming_skin_button">Flaming Skin</button></li>
-                    <li><button type="button" class="polymorph" id="icy_skin_button">Icy Skin</button></li>
-                    <li><button type="button" class="polymorph" id="poisonous_skin_button">Poisonous Skin</button></li>
-                    <li><button type="button" class="polymorph" id="equalize_button">Equalize</button></li>
-                    <li><button type="button" class="pyrokinetic" id="searing_daggers_button">Searing Daggers</button>
-                    </li>
-                    <li><button type="button" class="pyrokinetic" id="summon_fire_slug_button">Summon Fire Slug</button>
-                    </li>
-                    <li><button type="button" class="pyrokinetic" id="meteor_shower_button">Meteor Shower</button></li>
-                    <li><button type="button" class="pyrokinetic" id="flaming_tongues_button">Flaming Tongues</button>
-                    </li>
-                    <li><button type="button" class="scoundrel" id="corrupted_blade_button">Corrupted Blade</button>
-                    </li>
-                    <li><button type="button" class="scoundrel" id="daggers_drawn_button">Daggers Drawn</button></li>
-                    <li><button type="button" class="summoning" id="dimensional_bolt_button">Dimensional Bolt</button>
-                    </li>
-                    <li><button type="button" class="summoning" id="rallying_cry_button">Rallying Cry</button></li>
-                    <li><button type="button" class="summoning" id="ice_infusion_button">Ice Infusion</button></li>
-                    <li><button type="button" class="summoning" id="fire_infusion_button">Fire Infusion</button></li>
-                    <li><button type="button" class="summoning" id="poison_infusion_button">Poison Infusion</button>
-                    </li>
-                    <li><button type="button" class="summoning" id="electric_infusion_button">Electric Infusion</button>
-                    </li>
-                    <li><button type="button" class="summoning" id="ethereal_storm_button">Ethereal Storm</button></li>
-                    <li><button type="button" class="summoning" id="planar_gateway_button">Planar Gateway</button>
-                    </li>
-                    <li><button type="button" class="warfare" id="onslaught_button">Onslaught</button></li>
-                </ul>
-            </td>
-            <td>
-                <ul style="list-style-type:none;">
-                    <li><button type="button" class="aerotheurge" id="erratic_wisp_button">Erratic Wisp</button></li>
-                    <li><button type="button" class="aerotheurge" id="tornado_button">Tornado</button></li>
-                    <li><button type="button" class="aerotheurge" id="vaporise_button">Vaporise</button></li>
-                    <li><button type="button" class="geomancer" id="reactive_armour_button">Reactive Armour</button>
-                    </li>
-                    <li><button type="button" class="geomancer" id="siphon_poison_button">Siphon Poison</button></li>
-                    <li><button type="button" class="geomancer" id="oily_carapace_button">Oily Carapace</button></li>
-                    <li><button type="button" class="huntsman" id="farsight_button">Farsight</button></li>
-                    <li><button type="button" class="huntsman" id="reactive_shot_button">Reactive Shot</button></li>
-                    <li><button type="button" class="hydrosophist" id="steam_lance_button">Steam Lance</button></li>
-                    <li><button type="button" class="hydrosophist" id="cryogenic_stasis_button">Cryogenic
-                            Stasis</button></li>
-                    <li><button type="button" class="hydrosophist" id="healing_tears_button">Healing Tears</button></li>
-                    <li><button type="button" class="necromancer" id="totems_of_the_necromancer_button">Totems of the
-                            Necromancer</button></li>
-                    <li><button type="button" class="necromancer" id="silencing_stare_button">Silencing Stare</button>
-                    </li>
-                    <li><button type="button" class="polymorph" id="summon_oily_blob_button">Summon Oily Blob</button>
-                    </li>
-                    <li><button type="button" class="pyrokinetic" id="firebrand_button">Firebrand</button></li>
-                    <li><button type="button" class="pyrokinetic" id="sabotage_button">Sabotage</button></li>
-                    <li><button type="button" class="pyrokinetic" id="mass_sabotage_button">Mass Sabotage</button></li>
-                    <li><button type="button" class="scoundrel" id="gag_order_button">Gag Order</button></li>
-                    <li><button type="button" class="summoning" id="door_to_eternity_button">Door to Eternity</button>
-                    </li>
-                    <li><button type="button" class="summoning" id="water_infusion_button">Water Infusion</button></li>
-                    <li><button type="button" class="summoning" id="cannibalise_button">Cannibalise</button></li>
-                    <li><button type="button" class="warfare" id="guardian_angel_button">Guardian Angel</button></li>
-                </ul>
-            </td>
-            <td>
-                <ul style="list-style-type:none;">
-                    <li><button type="button" class="aerotheurge" id="favourable_wind_button">Favourable Wind</button>
-                    </li>
-                    <li><button type="button" class="aerotheurge" id="breathing_bubble_button">Breathing Bubble</button>
-                    </li>
-                    <li><button type="button" class="aerotheurge" id="mass_breathing_bubbles_button">Mass Breathing
-                            Bubbles</button></li>
-                    <li><button type="button" class="aerotheurge" id="apportation_button">Apportation</button></li>
-                    <li><button type="button" class="geomancer" id="mass_oily_carapace_button">Mass Oily
-                            Carapace</button></li>
-                    <li><button type="button" class="huntsman" id="glitter_dust_button">Glitter Dust</button></li>
-                </ul>
-            </td>
-        </tr>
+        </div>
+
+        <table class="spell">
+                <tr class="tierHeader">
+                        <th>S+</th>
+                        <th>S</th>
+                        <th>A</th>
+                        <th>B</th>
+                        <th>C</th>
+                        <th>D</th>
+                        <th>E</th>
+                        <th>F</th>
+                        <th>G</th>
+                </tr>
+
+                <tr>
+                        <td>
+                                <ul style="list-style-type:none;">
+                                        <li><button type="button" class="scoundrel"
+                                                        id="adrenaline_button">Adrenaline</button></li>
+                                </ul>
+
+                        </td>
+                        <td>
+                                <ul style="list-style-type:none;">
+                                        <li><button type="button" class="aerotheurge"
+                                                        id="teleportation_button">Teleportation</button></li>
+                                        <li><button type="button" class="huntsman" id="tactical_retreat_button">Tactical
+                                                        Retreat</button>
+                                        </li>
+                                        <li><button type="button" class="hydrosophist" id="rain_button">Rain</button>
+                                        </li>
+                                        <li><button type="button" class="polymorph" id="skin_graft_button">Skin
+                                                        Graft</button></li>
+                                        <li><button type="button" class="polymorph"
+                                                        id="chameleon_cloak_button">Chameleon Cloak</button>
+                                        </li>
+                                        <li><button type="button" class="warfare" id="battle_stomp_button">Battle
+                                                        Stomp</button></li>
+                                </ul>
+                        </td>
+                        <td>
+                                <ul style="list-style-type:none;">
+                                        <li><button type="button" class="aerotheurge" id="chain_lightning_button">Chain
+                                                        Lightning</button>
+                                        </li>
+                                        <li><button type="button" class="aerotheurge"
+                                                        id="pressure_spike_button">Pressure Spike</button>
+                                        </li>
+                                        <li><button type="button" class="aerotheurge" id="nether_swap_button">Nether
+                                                        Swap</button></li>
+                                        <li><button type="button" class="geomancer"
+                                                        id="pyroclastic_eruption_button">Pyroclastic
+                                                        Eruption</button></li>
+                                        <li><button type="button" class="geomancer" id="acid_spores_button">Acid
+                                                        Spores</button></li>
+                                        <li><button type="button" class="huntsman" id="ballistic_shot_button">Ballistic
+                                                        Shot</button></li>
+                                        <li><button type="button" class="hydrosophist" id="winter_blast_button">Winter
+                                                        Blast</button></li>
+                                        <li><button type="button" class="hydrosophist"
+                                                        id="armour_of_frost_button">Armour of Frost</button>
+                                        </li>
+                                        <li><button type="button" class="necromancer"
+                                                        id="grasp_of_the_starved_button">Grasp of the
+                                                        Starved</button></li>
+                                        <li><button type="button" class="polymorph" id="spider_legs_button">Spider
+                                                        Legs</button></li>
+                                        <li><button type="button" class="pyrokinetic"
+                                                        id="master_of_sparks_button">Master of Sparks</button>
+                                        </li>
+                                        <li><button type="button" class="pyrokinetic"
+                                                        id="corpse_explosion_button">Corpse
+                                                        Explosion</button></li>
+                                        <li><button type="button" class="pyrokinetic"
+                                                        id="mass_corpse_explosion_button">Mass Corpse
+                                                        Explosion</button></li>
+                                        <li><button type="button" class="scoundrel" id="cloak_and_dagger_button">Cloak
+                                                        and Dagger</button>
+                                        </li>
+                                        <li><button type="button" class="scoundrel"
+                                                        id="backlash_button">Backlash</button></li>
+                                        <li><button type="button" class="summoning"
+                                                        id="conjure_incarnate_button">Conjure Incarnate</button>
+                                        </li>
+                                        <li><button type="button" class="summoning" id="power_infusion_button">Power
+                                                        Infusion</button></li>
+                                        <li><button type="button" class="summoning"
+                                                        id="farsight_infusion_button">Farsight Infusion</button>
+                                        </li>
+                                        <li><button type="button" class="summoning" id="soul_mate_button">Soul
+                                                        Mate</button></li>
+                                        <li><button type="button" class="warfare" id="battering_ram_button">Battering
+                                                        Ram</button></li>
+                                        <li><button type="button" class="warfare" id="bouncing_shield_button">Bouncing
+                                                        Shield</button></li>
+                                        <li><button type="button" class="warfare" id="phoenix_dive_button">Phoenix
+                                                        Dive</button></li>
+                                        <li><button type="button" class="warfare" id="thick_of_the_fight_button">Thick
+                                                        of Fight</button>
+                                        </li>
+                                </ul>
+                        </td>
+                        <td>
+                                <ul style="list-style-type:none;">
+                                        <li><button type="button" class="aerotheurge" id="closed_circuit_button">Closed
+                                                        Circuit</button>
+                                        </li>
+                                        <li><button type="button" class="aerotheurge"
+                                                        id="superconductor_button">Superconductor</button>
+                                        </li>
+                                        <li><button type="button" class="aerotheurge" id="vacuum_aura_button">Vacuum
+                                                        Aura</button></li>
+                                        <li><button type="button" class="aerotheurge"
+                                                        id="uncanny_evasion_button">Uncanny Evasion</button>
+                                        </li>
+                                        <li><button type="button" class="geomancer" id="dust_blast_button">Dust
+                                                        Blast</button></li>
+                                        <li><button type="button" class="geomancer"
+                                                        id="earthquake_button">Earthquake</button></li>
+                                        <li><button type="button" class="geomancer"
+                                                        id="impalement_button">Impalement</button></li>
+                                        <li><button type="button" class="huntsman" id="first_aid_button">First
+                                                        Aid</button></li>
+                                        <li><button type="button" class="huntsman"
+                                                        id="elemental_arrowheads_button">Elemental
+                                                        Arrowheads</button></li>
+                                        <li><button type="button" class="hydrosophist" id="global_cooling_button">Global
+                                                        Cooling</button>
+                                        </li>
+                                        <li><button type="button" class="necromancer"
+                                                        id="mosquito_swarm_button">Mosquito Swarm</button>
+                                        </li>
+                                        <li><button type="button" class="necromancer"
+                                                        id="raise_bloated_corpse_button">Raise Bloated
+                                                        Corpse</button></li>
+                                        <li><button type="button" class="necromancer" id="raining_blood_button">Raining
+                                                        Blood</button></li>
+                                        <li><button type="button" class="polymorph" id="medusa_head_button">Medusa
+                                                        Head</button></li>
+                                        <li><button type="button" class="polymorph" id="bull_horns_button">Bull
+                                                        Horns</button></li>
+                                        <li><button type="button" class="polymorph" id="tentacle_lash_button">Tentacle
+                                                        Lash</button></li>
+                                        <li><button type="button" class="polymorph"
+                                                        id="apotheosis_button">Apotheosis</button></li>
+                                        <li><button type="button" class="pyrokinetic" id="laser_ray_button">Laser
+                                                        Ray</button></li>
+                                        <li><button type="button" class="pyrokinetic"
+                                                        id="fireball_button">Fireball</button></li>
+                                        <li><button type="button" class="pyrokinetic" id="haste_button">Haste</button>
+                                        </li>
+                                        <li><button type="button" class="pyrokinetic"
+                                                        id="throw_explosive_trap_button">Throw Explosive
+                                                        Trap</button></li>
+                                        <li><button type="button" class="pyrokinetic" id="peace_of_mind_button">Peace of
+                                                        Mind</button></li>
+                                        <li><button type="button" class="scoundrel"
+                                                        id="chloroform_button">Chloroform</button></li>
+                                        <li><button type="button" class="scoundrel" id="mortal_blow_button">Mortal
+                                                        Blow</button></li>
+                                        <li><button type="button" class="summoning" id="shadow_infusion_button">Shadow
+                                                        Infusion</button>
+                                        </li>
+                                        <li><button type="button" class="summoning" id="warp_infusion_button">Warp
+                                                        Infusion</button></li>
+                                        <li><button type="button" class="summoning" id="dominate_mind_button">Dominate
+                                                        Mind</button></li>
+                                        <li><button type="button" class="summoning"
+                                                        id="cursed_electric_infusion_button">Cursed Electric
+                                                        Infusion</button></li>
+                                        <li><button type="button" class="summoning" id="acid_infusion_button">Acid
+                                                        Infusion</button></li>
+                                        <li><button type="button" class="summoning"
+                                                        id="summon_inner_demon_button">Summon Inner
+                                                        Demon</button></li>
+                                        <li><button type="button" class="warfare"
+                                                        id="challenge_button">Challenge</button></li>
+                                        <li><button type="button" class="warfare"
+                                                        id="whirlwind_button">Whirlwind</button></li>
+
+                                </ul>
+                        </td>
+                        <td>
+                                <ul style="list-style-type:none;">
+                                        <li><button type="button" class="aerotheurge" id="smoke_cover_button">Smoke
+                                                        Cover</button></li>
+                                        <li><button type="button" class="aerotheurge" id="dazing_bolt_button">Dazing
+                                                        Bolt</button></li>
+                                        <li><button type="button" class="aerotheurge" id="vacuum_touch_button">Vacuum
+                                                        Touch</button></li>
+                                        <li><button type="button" class="aerotheurge" id="evasive_aura_button">Evasive
+                                                        Aura</button></li>
+                                        <li><button type="button" class="geomancer" id="worm_tremor_button">Worm
+                                                        Tremor</button></li>
+                                        <li><button type="button" class="geomancer" id="throw_dust_button">Throw
+                                                        Dust</button></li>
+                                        <li><button type="button" class="geomancer" id="poison_wave_button">Poison
+                                                        Wave</button></li>
+                                        <li><button type="button" class="geomancer" id="venom_coating_buttong">Venom
+                                                        Coating</button></li>
+                                        <li><button type="button" class="geomancer" id="fortify_button">Fortify</button>
+                                        </li>
+                                        <li><button type="button" class="geomancer" id="living_wall_button">Living
+                                                        Wall</button></li>
+                                        <li><button type="button" class="huntsman" id="pin_down_button">Pin
+                                                        Down</button></li>
+                                        <li><button type="button" class="huntsman" id="barrage_buttong">Barrage</button>
+                                        </li>
+                                        <li><button type="button" class="huntsman"
+                                                        id="ricochet_button">Ricochet</button></li>
+                                        <li><button type="button" class="huntsman" id="sky_shot_button">Sky
+                                                        Shot</button></li>
+                                        <li><button type="button" class="hydrosophist" id="hail_strike_button">Hail
+                                                        Strike</button></li>
+                                        <li><button type="button" class="hydrosophist" id="ice_fan_button">Ice
+                                                        Fan</button></li>
+                                        <li><button type="button" class="hydrosophist"
+                                                        id="restoration_button">Restoration</button></li>
+                                        <li><button type="button" class="hydrosophist" id="ice_breaker_button">Ice
+                                                        Breaker</button></li>
+                                        <li><button type="button" class="hydrosophist"
+                                                        id="cleanse_wounds_button">Cleanse Wounds</button>
+                                        </li>
+                                        <li><button type="button" class="hydrosophist"
+                                                        id="mass_cleanse_wounds_button">Mass Cleanse
+                                                        Wounds</button></li>
+                                        <li><button type="button" class="necromancer"
+                                                        id="living_on_the_edge_button">Living on the
+                                                        Edge</button>
+                                        </li>
+                                        <li><button type="button" class="necromancer"
+                                                        id="decaying_touch_button">Decaying Touch</button>
+                                        </li>
+                                        <li><button type="button" class="necromancer" id="infect_button">Infect</button>
+                                        </li>
+                                        <li><button type="button" class="necromancer" id="blood_storm_button">Blood
+                                                        Storm</button></li>
+                                        <li><button type="button" class="necromancer"
+                                                        id="shackles_of_pain_button">Shackles of Pain</button>
+                                        </li>
+                                        <li><button type="button" class="polymorph" id="spread_your_wings_button">Spread
+                                                        Your Wings</button>
+                                        </li>
+                                        <li><button type="button" class="polymorph" id="forced_exchange_button">Forced
+                                                        Exchange</button>
+                                        </li>
+                                        <li><button type="button" class="polymorph" id="heart_of_steel_button">Heart of
+                                                        Steel</button></li>
+                                        <li><button type="button" class="pyrokinetic"
+                                                        id="ignition_button">Ignition</button></li>
+                                        <li><button type="button" class="pyrokinetic"
+                                                        id="flaming_crescendo_button">Flaming
+                                                        Crescendo</button></li>
+                                        <li><button type="button" class="pyrokinetic"
+                                                        id="epidemic_of_fire_button">Epidemic of Fire</button>
+                                        </li>
+                                        <li><button type="button" class="pyrokinetic"
+                                                        id="supernova_button">Supernova</button></li>
+                                        <li><button type="button" class="pyrokinetic"
+                                                        id="deploy_mass_traps_button">Deploy Mass
+                                                        Traps</button></li>
+                                        <li><button type="button" class="scoundrel" id="sleeping_arms_button">Sleeping
+                                                        Arms</button></li>
+                                        <li><button type="button" class="scoundrel" id="wind_up_toy_button">Wind-Up
+                                                        Toy</button></li>
+                                        <li><button type="button" class="scoundrel" id="rupture_tendons_button">Rupture
+                                                        Tendons</button>
+                                        </li>
+                                        <li><button type="button" class="summoning"
+                                                        id="necrofire_infusion_button">Necrofire
+                                                        Infusion</button></li>
+                                        <li><button type="button" class="warfare"
+                                                        id="overpower_button">Overpower</button></li>
+                                        <li><button type="button" class="warfare" id="enrage_button">Enrage</button>
+                                        </li>
+                                        <li><button type="button" class="warfare" id="blitz_attack_button">Blitz
+                                                        Attack</button></li>
+                                </ul>
+                        </td>
+                        <td>
+                                <ul style="list-style-type:none;">
+                                        <li><button type="button" class="aerotheurge"
+                                                        id="electric_discharge_button">Electric
+                                                        Discharge</button></li>
+                                        <li><button type="button" class="aerotheurge"
+                                                        id="blinding_radiance_button">Blinding
+                                                        Radiance</button></li>
+                                        <li><button type="button" class="aerotheurge"
+                                                        id="shocking_touch_button">Shocking Touch</button>
+                                        </li>
+                                        <li><button type="button" class="geomancer"
+                                                        id="contamination_button">Contamination</button></li>
+                                        <li><button type="button" class="geomancer" id="fossil_strike_button">Fossil
+                                                        Strike</button></li>
+                                        <li><button type="button" class="geomancer" id="poison_dart_button">Poison
+                                                        Dart</button></li>
+                                        <li><button type="button" class="geomancer" id="venomous_aura_button">Venomous
+                                                        Aura</button></li>
+                                        <li><button type="button" class="geomancer" id="turn_to_oil_button">Turn to
+                                                        Oil</button></li>
+                                        <li><button type="button" class="geomancer" id="mend_metal_button">Mend
+                                                        Metal</button></li>
+                                        <li><button type="button" class="huntsman" id="marksmans_fang_button">Marksman's
+                                                        Fang</button></li>
+                                        <li><button type="button" class="huntsman" id="arrow_storm_button">Arrow
+                                                        Storm</button></li>
+                                        <li><button type="button" class="hydrosophist" id="deep_freeze_button">Deep
+                                                        Freeze</button></li>
+                                        <li><button type="button" class="hydrosophist"
+                                                        id="soothing_cold_button">Soothing Cold</button></li>
+                                        <li><button type="button" class="hydrosophist"
+                                                        id="vampiric_hunger_button">Vampiric Hunger</button>
+                                        </li>
+                                        <li><button type="button" class="hydrosophist"
+                                                        id="vampiric_hunger_aura_button">Vampiric Hunger
+                                                        Aura</button></li>
+                                        <li><button type="button" class="necromancer" id="death_wish_button">Death
+                                                        Wish</button></li>
+                                        <li><button type="button" class="necromancer" id="blood_sucker_button">Blood
+                                                        Sucker</button></li>
+                                        <li><button type="button" class="necromancer" id="raise_bone_widow_button">Raise
+                                                        Bone Widow</button>
+                                        </li>
+                                        <li><button type="button" class="necromancer" id="bone_cage_button">Bone
+                                                        Cage</button></li>
+                                        <li><button type="button" class="polymorph"
+                                                        id="terrain_transmutation_button">Terrain
+                                                        Transmutation</button></li>
+                                        <li><button type="button" class="polymorph" id="jellyfish_skin_button">Jellyfish
+                                                        Skin</button></li>
+                                        <li><button type="button" class="polymorph" id="chicken_claw_button">Chicken
+                                                        Claw</button></li>
+                                        <li><button type="button" class="pyrokinetic"
+                                                        id="spontaneous_combustion_button">Spontaneos
+                                                        Combustion</button></li>
+                                        <li><button type="button" class="pyrokinetic" id="bleed_fire_button">Bleed
+                                                        Fire</button></li>
+                                        <li><button type="button" class="pyrokinetic" id="fire_whip_button">Fire
+                                                        Whip</button></li>
+                                        <li><button type="button" class="pyrokinetic"
+                                                        id="sparking_swings_button">Sparking Swings</button>
+                                        </li>
+                                        <li><button type="button" class="scoundrel"
+                                                        id="terrifying_cruelty_button">Terrifying
+                                                        Cruelty</button></li>
+                                        <li><button type="button" class="scoundrel" id="throwing_knife_button">Throwing
+                                                        Knife</button></li>
+                                        <li><button type="button" class="scoundrel" id="fan_of_knives_button">Fan of
+                                                        Knives</button></li>
+                                        <li><button type="button" class="summoning"
+                                                        id="elemental_totem_button">Elemental Totem</button>
+                                        </li>
+                                        <li><button type="button" class="warfare"
+                                                        id="deflective_barrier_button">Deflective Barrier</button>
+                                        </li>
+                                        <li><button type="button" class="warfare" id="crippling_blow_button">Crippling
+                                                        Blow</button></li>
+                                </ul>
+                        </td>
+                        <td>
+                                <ul style="list-style-type:none;">
+                                        <li><button type="button" class="aerotheurge"
+                                                        id="blessed_smoke_cloud_button">Blessed Smoke
+                                                        Cloud</button>
+                                        </li>
+                                        <li><button type="button" class="aerotheurge"
+                                                        id="thunderstorm_button">Thunderstorm</button></li>
+                                        <li><button type="button" class="geomancer"
+                                                        id="corrosive_touch_button">Corrosive Touch</button>
+                                        </li>
+                                        <li><button type="button" class="geomancer"
+                                                        id="corrosive_spray_button">Corrosive Spray</button>
+                                        </li>
+                                        <li><button type="button" class="huntsman"
+                                                        id="assassinate_button">Assassinate</button></li>
+                                        <li><button type="button" class="huntsman" id="arrow_spray_button">Arrow
+                                                        Spray</button></li>
+                                        <li><button type="button" class="hydrosophist"
+                                                        id="healing_ritual_button">Healing Ritual</button>
+                                        </li>
+                                        <li><button type="button" class="hydrosophist" id="arcane_stitch_button">Arcane
+                                                        Stitch</button></li>
+                                        <li><button type="button" class="hydrosophist"
+                                                        id="cryotherapy_button">Cryotherapy</button></li>
+                                        <li><button type="button" class="hydrosophist" id="mass_cryotherapy_button">Mass
+                                                        Cryotherapy</button></li>
+                                        <li><button type="button" class="necromancer" id="last_rites_button">Last
+                                                        Rites</button></li>
+                                        <li><button type="button" class="necromancer" id="black_shroud_button">Black
+                                                        Shroud</button></li>
+                                        <li><button type="button" class="polymorph" id="flay_skin_button">Flay
+                                                        Skin</button></li>
+                                        <li><button type="button" class="polymorph" id="flaming_skin_button">Flaming
+                                                        Skin</button></li>
+                                        <li><button type="button" class="polymorph" id="icy_skin_button">Icy
+                                                        Skin</button></li>
+                                        <li><button type="button" class="polymorph" id="poisonous_skin_button">Poisonous
+                                                        Skin</button></li>
+                                        <li><button type="button" class="polymorph"
+                                                        id="equalize_button">Equalize</button></li>
+                                        <li><button type="button" class="pyrokinetic"
+                                                        id="searing_daggers_button">Searing Daggers</button>
+                                        </li>
+                                        <li><button type="button" class="pyrokinetic"
+                                                        id="summon_fire_slug_button">Summon Fire Slug</button>
+                                        </li>
+                                        <li><button type="button" class="pyrokinetic" id="meteor_shower_button">Meteor
+                                                        Shower</button></li>
+                                        <li><button type="button" class="pyrokinetic"
+                                                        id="flaming_tongues_button">Flaming Tongues</button>
+                                        </li>
+                                        <li><button type="button" class="scoundrel"
+                                                        id="corrupted_blade_button">Corrupted Blade</button>
+                                        </li>
+                                        <li><button type="button" class="scoundrel" id="daggers_drawn_button">Daggers
+                                                        Drawn</button></li>
+                                        <li><button type="button" class="summoning"
+                                                        id="dimensional_bolt_button">Dimensional Bolt</button>
+                                        </li>
+                                        <li><button type="button" class="summoning" id="rallying_cry_button">Rallying
+                                                        Cry</button></li>
+                                        <li><button type="button" class="summoning" id="ice_infusion_button">Ice
+                                                        Infusion</button></li>
+                                        <li><button type="button" class="summoning" id="fire_infusion_button">Fire
+                                                        Infusion</button></li>
+                                        <li><button type="button" class="summoning" id="poison_infusion_button">Poison
+                                                        Infusion</button>
+                                        </li>
+                                        <li><button type="button" class="summoning"
+                                                        id="electric_infusion_button">Electric Infusion</button>
+                                        </li>
+                                        <li><button type="button" class="summoning" id="ethereal_storm_button">Ethereal
+                                                        Storm</button></li>
+                                        <li><button type="button" class="summoning" id="planar_gateway_button">Planar
+                                                        Gateway</button>
+                                        </li>
+                                        <li><button type="button" class="warfare"
+                                                        id="onslaught_button">Onslaught</button></li>
+                                </ul>
+                        </td>
+                        <td>
+                                <ul style="list-style-type:none;">
+                                        <li><button type="button" class="aerotheurge" id="erratic_wisp_button">Erratic
+                                                        Wisp</button></li>
+                                        <li><button type="button" class="aerotheurge"
+                                                        id="tornado_button">Tornado</button></li>
+                                        <li><button type="button" class="aerotheurge"
+                                                        id="vaporise_button">Vaporise</button></li>
+                                        <li><button type="button" class="geomancer" id="reactive_armour_button">Reactive
+                                                        Armour</button>
+                                        </li>
+                                        <li><button type="button" class="geomancer" id="siphon_poison_button">Siphon
+                                                        Poison</button></li>
+                                        <li><button type="button" class="geomancer" id="oily_carapace_button">Oily
+                                                        Carapace</button></li>
+                                        <li><button type="button" class="huntsman"
+                                                        id="farsight_button">Farsight</button></li>
+                                        <li><button type="button" class="huntsman" id="reactive_shot_button">Reactive
+                                                        Shot</button></li>
+                                        <li><button type="button" class="hydrosophist" id="steam_lance_button">Steam
+                                                        Lance</button></li>
+                                        <li><button type="button" class="hydrosophist"
+                                                        id="cryogenic_stasis_button">Cryogenic
+                                                        Stasis</button></li>
+                                        <li><button type="button" class="hydrosophist" id="healing_tears_button">Healing
+                                                        Tears</button></li>
+                                        <li><button type="button" class="necromancer"
+                                                        id="totems_of_the_necromancer_button">Totems of the
+                                                        Necromancer</button></li>
+                                        <li><button type="button" class="necromancer"
+                                                        id="silencing_stare_button">Silencing Stare</button>
+                                        </li>
+                                        <li><button type="button" class="polymorph" id="summon_oily_blob_button">Summon
+                                                        Oily Blob</button>
+                                        </li>
+                                        <li><button type="button" class="pyrokinetic"
+                                                        id="firebrand_button">Firebrand</button></li>
+                                        <li><button type="button" class="pyrokinetic"
+                                                        id="sabotage_button">Sabotage</button></li>
+                                        <li><button type="button" class="pyrokinetic" id="mass_sabotage_button">Mass
+                                                        Sabotage</button></li>
+                                        <li><button type="button" class="scoundrel" id="gag_order_button">Gag
+                                                        Order</button></li>
+                                        <li><button type="button" class="summoning" id="door_to_eternity_button">Door to
+                                                        Eternity</button>
+                                        </li>
+                                        <li><button type="button" class="summoning" id="water_infusion_button">Water
+                                                        Infusion</button></li>
+                                        <li><button type="button" class="summoning"
+                                                        id="cannibalise_button">Cannibalise</button></li>
+                                        <li><button type="button" class="warfare" id="guardian_angel_button">Guardian
+                                                        Angel</button></li>
+                                </ul>
+                        </td>
+                        <td>
+                                <ul style="list-style-type:none;">
+                                        <li><button type="button" class="aerotheurge"
+                                                        id="favourable_wind_button">Favourable Wind</button>
+                                        </li>
+                                        <li><button type="button" class="aerotheurge"
+                                                        id="breathing_bubble_button">Breathing Bubble</button>
+                                        </li>
+                                        <li><button type="button" class="aerotheurge"
+                                                        id="mass_breathing_bubbles_button">Mass Breathing
+                                                        Bubbles</button></li>
+                                        <li><button type="button" class="aerotheurge"
+                                                        id="apportation_button">Apportation</button></li>
+                                        <li><button type="button" class="geomancer" id="mass_oily_carapace_button">Mass
+                                                        Oily
+                                                        Carapace</button></li>
+                                        <li><button type="button" class="huntsman" id="glitter_dust_button">Glitter
+                                                        Dust</button></li>
+                                </ul>
+                        </td>
+                </tr>
 
 
 
 
 
-    </table>
+        </table>
 
 
 
 
 
 
-    <!-- The Modal -->
-    <div id="myModal" class="modal">
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
 
-        <!-- The Close Button -->
-        <span class="close">&times;</span>
-        <span class="invisible_cloe">&times;</span>
+                <!-- The Close Button -->
+                <span class="close">&times;</span>
+                <span class="invisible_cloe">&times;</span>
 
-        <!-- Modal Content (The Image) -->
-        <img class="modal-content" id="img01">
+                <!-- Modal Content (The Image) -->
+                <img class="modal-content" id="img01">
 
-        <!-- Modal Caption (Image Text) -->
-        <div id="caption"></div>
-    </div>
+                <!-- Modal Caption (Image Text) -->
+                <div id="caption"></div>
+        </div>
 
 </body>
 <script src="/main.js"></script>
