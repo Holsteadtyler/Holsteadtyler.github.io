@@ -299,6 +299,14 @@ button.warfare{
     table, thead, tbody, th, td, tr { 
       display: block; 
     }
+
+
+
+    button{
+      padding:5px 10px 32px 10px;
+    }
+
+
     
     div.classRow{
       
