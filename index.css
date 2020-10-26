@@ -23,6 +23,7 @@ h1 {
   padding: 10px;
   border-style:solid;
   border-width:2px;
+  border-color:black;
   margin:0px 30px 30px 30px;
   border-radius: 4px;
   display:inline-block;
@@ -30,12 +31,15 @@ h1 {
   font-family: Lora, serif;
   font-size:12px;
   text-transform:uppercase;
+  color:white;
+  
   
 }
 
 
 .aeroKey{
   background-color:#ddda0bc2;
+  color:black;
 }
 
 .geoKey{
@@ -56,6 +60,7 @@ h1 {
 
 .polyKey{
   background-color:rgba(247, 248, 248, 0.842);
+  color:black;
 }
 
 .pyroKey{
@@ -78,11 +83,15 @@ h1 {
 li {
   margin:bottom;
   display:flex;
+  
+  
 
 }
 
 td{
   vertical-align:top;
+  
+ 
 }
 
 
@@ -92,6 +101,7 @@ ul{
   position:relative;
   vertical-align:top;
   top:0;
+  
 }
 
 
@@ -106,12 +116,15 @@ body{
 
   max-width: auto;
   margin: auto;
+
+  
   
 }
 
 .spell{
   height:auto;
   width: 100%;
+  
 
 }
 
@@ -263,7 +276,7 @@ button.warfare{
     font-weight: bold;
     transition: 0.3s;
   }
-  */
+  
 
   .close {
     position: absolute;
@@ -275,6 +288,8 @@ button.warfare{
     transition: 0.3s;
     
   }
+
+  */
   
   .close:hover,
   .close:focus {
